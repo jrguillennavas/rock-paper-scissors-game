@@ -1,0 +1,17 @@
+.Container-hand {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+  p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 765px) {
+  .Container-hand {
+    p {
+      font-size: 2rem;
+    }
+  }
+}

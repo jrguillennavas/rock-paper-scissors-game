@@ -1,0 +1,35 @@
+.Point__text {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+.Cpu {
+  padding: 0.2rem 0.5rem;
+  background-color: #e63946;
+  font-weight: bold;
+  color: aliceblue;
+  border-radius: 0.3rem;
+}
+.Player {
+  padding: 0.2rem 0.5rem;
+  background-color: #2a9d8f;
+  font-weight: bold;
+  color: aliceblue;
+  border-radius: 0.3rem;
+}
+.Round {
+  padding: 0.2rem 0.5rem;
+  font-size: 2rem;
+  background-color: #0913a1;
+  font-weight: bold;
+  color: aliceblue;
+  border-radius: 0.3rem;
+}
+@media only screen and (min-width: 765px) {
+  .Cpu {
+    font-size: 2.5rem;
+  }
+  .Player {
+    font-size: 2.5rem;
+  }
+}
